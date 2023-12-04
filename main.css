@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+section h4,
+form button {
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(to bottom, #FAF3E0 5%, #9E9E9E 15%, #003366 70%);
+}
+
+
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+        color: #003366;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 40px;
+}
+
+header nav li a {
+    color: #003366;
+    text-decoration-line: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 54px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 18px;
+}
+
+section .container {
+align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #ebc8a8;
+}
+
+section {
+    color: #021302;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.georges-photo {
+    margin-right: 32px;
+    width: 500px;
+    height: auto;
+}
+
+.social-links img {
+    height: 45px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    color: #ee8523;
+}
+
+form button {
+    background-color: #ee8523;
+    color: #04090e;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ebc8a8;
+}
+
+input:focus, textarea:focus {
+    outline-color: #04090e;
+}
+
+footer {
+    background-color: #9E9E9E;
+    color: #ecf0f1;
+    padding: 20px 0;
+}
+
+#blog-links {
+    padding: 20px;
+}
+
+.blog-post {
+display: inline-block;
+width: 40%;
+margin-right: 8px;
+}
+
+#blog-links .blog-post {
+    margin-bottom: 20px;
+}
+
+#blog-links h2 {
+    color: #f5f7f8;
+}
+
+#blog-links a {
+    color: #f5f7f8; 
+    text-decoration: none;
+}
+
+#blog-links a:hover {
+    text-decoration: underline;
+}
+
+section h4 {
+    font-size: 25px;
+    color: #ee8523;
+}
